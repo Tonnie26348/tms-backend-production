@@ -1,6 +1,6 @@
 package com.tms.core.service.trip;
 
-import com.tms.api.dto.trip.TripDTO;
+import com.tms.core.dto.trip.TripDTO;
 import com.tms.core.entity.trip.Trip;
 import com.tms.infrastructure.repository.route.RouteRepository;
 import com.tms.infrastructure.repository.vehicle.VehicleRepository;
@@ -80,3 +80,5 @@ public class TripService {
         trip.setStatus(dto.getStatus());
     }
 }
+
+

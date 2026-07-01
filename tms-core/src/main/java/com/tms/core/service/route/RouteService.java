@@ -1,6 +1,6 @@
 package com.tms.core.service.route;
 
-import com.tms.api.dto.route.RouteDTO;
+import com.tms.core.dto.route.RouteDTO;
 import com.tms.core.entity.route.Route;
 import com.tms.infrastructure.repository.route.RouteRepository;
 import org.springframework.stereotype.Service;
@@ -68,3 +68,5 @@ public class RouteService {
         route.setBaseFare(dto.getBaseFare());
     }
 }
+
+

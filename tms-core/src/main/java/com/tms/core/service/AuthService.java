@@ -1,8 +1,8 @@
 package com.tms.core.service;
 
-import com.tms.api.dto.AuthResponse;
-import com.tms.api.dto.LoginRequest;
-import com.tms.api.security.JwtUtils;
+import com.tms.core.dto.AuthResponse;
+import com.tms.core.dto.LoginRequest;
+import com.tms.core.security.JwtUtils;
 import com.tms.core.entity.User;
 import com.tms.infrastructure.repository.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -38,3 +38,5 @@ public class AuthService {
         return new AuthResponse(jwt, loginRequest.getUsername());
     }
 }
+
+

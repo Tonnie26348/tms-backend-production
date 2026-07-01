@@ -1,6 +1,6 @@
 package com.tms.core.service.payment;
 
-import com.tms.api.dto.payment.PaymentDTO;
+import com.tms.core.dto.payment.PaymentDTO;
 import com.tms.core.entity.payment.Payment;
 import com.tms.core.service.payment.strategy.PaymentStrategyFactory;
 import com.tms.infrastructure.repository.booking.BookingRepository;
@@ -70,3 +70,5 @@ public class PaymentService {
         payment.setExternalTransactionId(dto.getExternalTransactionId());
     }
 }
+
+

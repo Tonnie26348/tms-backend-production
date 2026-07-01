@@ -1,4 +1,4 @@
-package com.tms.api.security;
+package com.tms.core.security;
 
 import com.tms.core.entity.User;
 import com.tms.infrastructure.repository.UserRepository;
@@ -29,3 +29,4 @@ public class CustomUserDetailsService implements UserDetailsService {
         return builder.build();
     }
 }
+

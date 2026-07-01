@@ -44,3 +44,4 @@ public class Trip extends Auditable {
     @Column(nullable = false)
     private String status = "SCHEDULED"; // SCHEDULED, IN_PROGRESS, COMPLETED, CANCELLED
 }
+

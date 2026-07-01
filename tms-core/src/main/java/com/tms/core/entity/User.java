@@ -45,3 +45,4 @@ public class User extends Auditable {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 }
+

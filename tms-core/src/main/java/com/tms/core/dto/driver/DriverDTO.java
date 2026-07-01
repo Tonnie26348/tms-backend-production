@@ -1,4 +1,4 @@
-package com.tms.api.dto.driver;
+package com.tms.core.dto.driver;
 
 import lombok.Data;
 import java.time.LocalDate;
@@ -13,3 +13,4 @@ public class DriverDTO {
     private String phoneNumber;
     private String status;
 }
+

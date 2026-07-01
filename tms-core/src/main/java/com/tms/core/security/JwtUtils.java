@@ -1,4 +1,4 @@
-package com.tms.api.security;
+package com.tms.core.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
@@ -49,3 +49,4 @@ public class JwtUtils {
         }
     }
 }
+

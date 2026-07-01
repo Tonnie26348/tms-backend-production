@@ -1,4 +1,4 @@
-package com.tms.api.dto.payment;
+package com.tms.core.dto.payment;
 
 import lombok.Data;
 import java.math.BigDecimal;
@@ -14,3 +14,4 @@ public class PaymentDTO {
     private String status;
     private String externalTransactionId;
 }
+

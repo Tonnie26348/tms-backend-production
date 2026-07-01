@@ -1,6 +1,6 @@
 package com.tms.api.controller.payment;
 
-import com.tms.api.dto.payment.PaymentDTO;
+import com.tms.core.dto.payment.PaymentDTO;
 import com.tms.core.service.payment.PaymentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -33,3 +33,4 @@ public class PaymentController {
         return ResponseEntity.ok(paymentService.getPaymentById(id));
     }
 }
+

@@ -40,3 +40,4 @@ public class Payment extends Auditable {
     @Column
     private String externalTransactionId;
 }
+

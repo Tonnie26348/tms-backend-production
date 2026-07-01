@@ -1,6 +1,6 @@
 package com.tms.api.controller.booking;
 
-import com.tms.api.dto.booking.BookingDTO;
+import com.tms.core.dto.booking.BookingDTO;
 import com.tms.core.service.booking.BookingService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -44,3 +44,4 @@ public class BookingController {
         return ResponseEntity.noContent().build();
     }
 }
+

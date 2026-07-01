@@ -1,4 +1,4 @@
-package com.tms.api.dto;
+package com.tms.core.dto;
 
 import lombok.Data;
 
@@ -13,3 +13,4 @@ public class AuthResponse {
         this.username = username;
     }
 }
+

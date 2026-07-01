@@ -1,4 +1,4 @@
-package com.tms.api.dto;
+package com.tms.core.dto;
 
 import lombok.Data;
 
@@ -7,3 +7,4 @@ public class LoginRequest {
     private String username;
     private String password;
 }
+

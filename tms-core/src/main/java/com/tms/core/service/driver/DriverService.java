@@ -1,6 +1,6 @@
 package com.tms.core.service.driver;
 
-import com.tms.api.dto.driver.DriverDTO;
+import com.tms.core.dto.driver.DriverDTO;
 import com.tms.core.entity.driver.Driver;
 import com.tms.infrastructure.repository.driver.DriverRepository;
 import org.springframework.stereotype.Service;
@@ -68,3 +68,5 @@ public class DriverService {
         driver.setStatus(dto.getStatus());
     }
 }
+
+

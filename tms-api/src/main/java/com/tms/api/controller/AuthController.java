@@ -1,7 +1,7 @@
 package com.tms.api.controller;
 
-import com.tms.api.dto.AuthResponse;
-import com.tms.api.dto.LoginRequest;
+import com.tms.core.dto.AuthResponse;
+import com.tms.core.dto.LoginRequest;
 import com.tms.core.service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,3 +21,4 @@ public class AuthController {
         return ResponseEntity.ok(authService.login(loginRequest));
     }
 }
+

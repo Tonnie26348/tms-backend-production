@@ -1,4 +1,4 @@
-package com.tms.api.dto.trip;
+package com.tms.core.dto.trip;
 
 import lombok.Data;
 import java.time.LocalDateTime;
@@ -14,3 +14,4 @@ public class TripDTO {
     private LocalDateTime arrivalTime;
     private String status;
 }
+

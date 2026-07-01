@@ -1,6 +1,6 @@
 package com.tms.api.controller.vehicle;
 
-import com.tms.api.dto.vehicle.VehicleDTO;
+import com.tms.core.dto.vehicle.VehicleDTO;
 import com.tms.core.service.vehicle.VehicleService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -44,3 +44,4 @@ public class VehicleController {
         return ResponseEntity.noContent().build();
     }
 }
+

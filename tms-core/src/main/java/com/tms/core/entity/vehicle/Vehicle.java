@@ -31,3 +31,4 @@ public class Vehicle extends Auditable {
     @Column(nullable = false)
     private String status = "AVAILABLE"; // AVAILABLE, ON_TRIP, MAINTENANCE
 }
+

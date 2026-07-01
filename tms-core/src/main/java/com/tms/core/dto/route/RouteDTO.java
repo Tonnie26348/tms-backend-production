@@ -1,4 +1,4 @@
-package com.tms.api.dto.route;
+package com.tms.core.dto.route;
 
 import lombok.Data;
 import java.math.BigDecimal;
@@ -13,3 +13,4 @@ public class RouteDTO {
     private Integer estimatedDurationMinutes;
     private BigDecimal baseFare;
 }
+

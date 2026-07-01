@@ -1,6 +1,6 @@
 package com.tms.api.controller.route;
 
-import com.tms.api.dto.route.RouteDTO;
+import com.tms.core.dto.route.RouteDTO;
 import com.tms.core.service.route.RouteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -44,3 +44,4 @@ public class RouteController {
         return ResponseEntity.noContent().build();
     }
 }
+

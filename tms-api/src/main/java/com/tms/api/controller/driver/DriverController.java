@@ -1,6 +1,6 @@
 package com.tms.api.controller.driver;
 
-import com.tms.api.dto.driver.DriverDTO;
+import com.tms.core.dto.driver.DriverDTO;
 import com.tms.core.service.driver.DriverService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -44,3 +44,4 @@ public class DriverController {
         return ResponseEntity.noContent().build();
     }
 }
+

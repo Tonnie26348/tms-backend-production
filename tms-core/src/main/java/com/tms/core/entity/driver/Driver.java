@@ -35,3 +35,4 @@ public class Driver extends Auditable {
     @Column(nullable = false)
     private String status = "AVAILABLE"; // AVAILABLE, ON_TRIP, MAINTENANCE
 }
+

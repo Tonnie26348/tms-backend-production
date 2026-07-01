@@ -1,6 +1,6 @@
 package com.tms.api.controller.trip;
 
-import com.tms.api.dto.trip.TripDTO;
+import com.tms.core.dto.trip.TripDTO;
 import com.tms.core.service.trip.TripService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -44,3 +44,4 @@ public class TripController {
         return ResponseEntity.noContent().build();
     }
 }
+

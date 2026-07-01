@@ -39,3 +39,4 @@ public class Booking extends Auditable {
     @Column(nullable = false)
     private String status = "PENDING"; // PENDING, CONFIRMED, CANCELLED, REFUNDED
 }
+

@@ -1,4 +1,4 @@
-package com.tms.api.security;
+package com.tms.core.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -55,3 +55,4 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         return null;
     }
 }
+

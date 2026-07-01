@@ -1,4 +1,4 @@
-package com.tms.api.dto.vehicle;
+package com.tms.core.dto.vehicle;
 
 import lombok.Data;
 import java.util.UUID;
@@ -11,3 +11,4 @@ public class VehicleDTO {
     private Integer capacity;
     private String status;
 }
+

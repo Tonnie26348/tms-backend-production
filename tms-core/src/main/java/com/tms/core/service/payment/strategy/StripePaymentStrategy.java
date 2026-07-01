@@ -1,6 +1,6 @@
 package com.tms.core.service.payment.strategy;
 
-import com.tms.api.dto.payment.PaymentDTO;
+import com.tms.core.dto.payment.PaymentDTO;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -20,3 +20,5 @@ public class StripePaymentStrategy implements PaymentStrategy {
         return "STRIPE";
     }
 }
+
+

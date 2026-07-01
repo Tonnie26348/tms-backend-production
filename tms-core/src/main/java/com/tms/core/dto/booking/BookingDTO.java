@@ -1,4 +1,4 @@
-package com.tms.api.dto.booking;
+package com.tms.core.dto.booking;
 
 import lombok.Data;
 import java.math.BigDecimal;
@@ -13,3 +13,4 @@ public class BookingDTO {
     private BigDecimal amountPaid;
     private String status;
 }
+
