@@ -17,6 +17,16 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
+            <groupId>com.tms</groupId>
+            <artifactId>tms-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tms</groupId>
+            <artifactId>tms-infrastructure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
