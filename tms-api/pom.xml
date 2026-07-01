@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.tms</groupId>
-            <artifactId>tms-infrastructure</artifactId>
+            <artifactId>tms-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
