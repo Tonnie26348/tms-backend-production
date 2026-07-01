@@ -3,8 +3,8 @@ package com.tms.core.service.payment;
 import com.tms.core.dto.payment.PaymentDTO;
 import com.tms.core.entity.payment.Payment;
 import com.tms.core.service.payment.strategy.PaymentStrategyFactory;
-import com.tms.infrastructure.repository.booking.BookingRepository;
-import com.tms.infrastructure.repository.payment.PaymentRepository;
+import com.tms.core.repository.booking.BookingRepository;
+import com.tms.core.repository.payment.PaymentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

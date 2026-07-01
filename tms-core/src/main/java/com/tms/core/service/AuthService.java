@@ -4,7 +4,7 @@ import com.tms.core.dto.AuthResponse;
 import com.tms.core.dto.LoginRequest;
 import com.tms.core.security.JwtUtils;
 import com.tms.core.entity.User;
-import com.tms.infrastructure.repository.UserRepository;
+import com.tms.core.repository.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

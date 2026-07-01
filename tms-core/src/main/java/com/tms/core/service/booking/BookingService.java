@@ -2,9 +2,9 @@ package com.tms.core.service.booking;
 
 import com.tms.core.dto.booking.BookingDTO;
 import com.tms.core.entity.booking.Booking;
-import com.tms.infrastructure.repository.UserRepository;
-import com.tms.infrastructure.repository.trip.TripRepository;
-import com.tms.infrastructure.repository.booking.BookingRepository;
+import com.tms.core.repository.UserRepository;
+import com.tms.core.repository.trip.TripRepository;
+import com.tms.core.repository.booking.BookingRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

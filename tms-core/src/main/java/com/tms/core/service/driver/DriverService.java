@@ -2,7 +2,7 @@ package com.tms.core.service.driver;
 
 import com.tms.core.dto.driver.DriverDTO;
 import com.tms.core.entity.driver.Driver;
-import com.tms.infrastructure.repository.driver.DriverRepository;
+import com.tms.core.repository.driver.DriverRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

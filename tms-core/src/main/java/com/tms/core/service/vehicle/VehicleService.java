@@ -2,7 +2,7 @@ package com.tms.core.service.vehicle;
 
 import com.tms.core.dto.vehicle.VehicleDTO;
 import com.tms.core.entity.vehicle.Vehicle;
-import com.tms.infrastructure.repository.vehicle.VehicleRepository;
+import com.tms.core.repository.vehicle.VehicleRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
