@@ -1,8 +1,8 @@
 package com.tms.api.config;
 
-import com.tms.api.security.CustomUserDetailsService;
-import com.tms.api.security.JwtAuthenticationFilter;
-import com.tms.api.security.JwtUtils;
+import com.tms.core.security.CustomUserDetailsService;
+import com.tms.core.security.JwtAuthenticationFilter;
+import com.tms.core.security.JwtUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
