@@ -1,7 +1,7 @@
 package com.tms.core.security;
 
 import com.tms.core.entity.User;
-import com.tms.infrastructure.repository.UserRepository;
+import com.tms.core.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -29,4 +29,5 @@ public class CustomUserDetailsService implements UserDetailsService {
         return builder.build();
     }
 }
+
 

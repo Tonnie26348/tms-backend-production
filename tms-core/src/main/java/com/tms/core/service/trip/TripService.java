@@ -2,10 +2,10 @@ package com.tms.core.service.trip;
 
 import com.tms.core.dto.trip.TripDTO;
 import com.tms.core.entity.trip.Trip;
-import com.tms.infrastructure.repository.route.RouteRepository;
-import com.tms.infrastructure.repository.vehicle.VehicleRepository;
-import com.tms.infrastructure.repository.driver.DriverRepository;
-import com.tms.infrastructure.repository.trip.TripRepository;
+import com.tms.core.repository.route.RouteRepository;
+import com.tms.core.repository.vehicle.VehicleRepository;
+import com.tms.core.repository.driver.DriverRepository;
+import com.tms.core.repository.trip.TripRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

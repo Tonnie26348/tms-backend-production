@@ -2,7 +2,7 @@ package com.tms.core.service.route;
 
 import com.tms.core.dto.route.RouteDTO;
 import com.tms.core.entity.route.Route;
-import com.tms.infrastructure.repository.route.RouteRepository;
+import com.tms.core.repository.route.RouteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
